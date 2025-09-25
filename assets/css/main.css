@@ -85,7 +85,15 @@ input, select, textarea {
 /*Sticker*/
 .Sticker.Main {
 opacity:100%;
-align:center;
+ display: block;
+  margin-right:0px;
+  margin-left:0px;
+  width: 125%;
+  height:125%;
+  display:flex;
+
+  vertical-align:top;
+
 
 }
 
@@ -1295,7 +1303,7 @@ align:center;
 				top: calc(-3.5rem - 1px);
 				left: calc(50% - 1px);
 				width: 1px;
-				height: calc(3.5rem + 1px);
+				height: calc(1px);
 				background: #ffffff;
 			}
 
@@ -1308,11 +1316,9 @@ align:center;
 			}
 
 		#header .logo {
-			width: 10rem;
+			width: 11rem;
 			height: 10rem;
-			line-height: 5.5rem;
-			border: solid 1px #ffffff;
-			border-radius: 100%;
+			margin-right:50px;
 		}
 
 			#header .logo .icon:before {
@@ -1322,8 +1328,8 @@ align:center;
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
-			border-top-width: 1px;
-			border-bottom-width: 1px;
+			border-top-width: 2px;
+			border-bottom-width: 2px;
 			max-width: 100%;
 		}
 
@@ -1348,8 +1354,8 @@ align:center;
 			#header .content p {
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
-				line-height: 2;
+				font-size: 1rem;
+				line-height: 2rem;
 			}
 
 
