@@ -1336,8 +1336,6 @@ object-fit:cover;
 				position: absolute;
 				top: calc(-3.5rem - 1px);
 				left: calc(50% - 1px);
-				width: 1px;
-				height: calc(3.5rem + 1px);
 				background: #ffffff;
 			}
 
@@ -1350,11 +1348,9 @@ object-fit:cover;
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
-			border: solid 1px #ffffff;
-			border-radius: 100%;
+			width: 11rem;
+			height: 10rem;
+			
 		}
 
 			#header .logo .icon:before {
