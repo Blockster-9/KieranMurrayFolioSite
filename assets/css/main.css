@@ -110,7 +110,7 @@ object-fit:cover;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #5E6572;
+  background-color:#8A0000;
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -1217,7 +1217,7 @@ object-fit:cover;
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-color: #01080C;
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1386,7 +1386,7 @@ object-fit:cover;
 			#header .content p {
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
+				font-size: 1rem;
 				line-height: 2;
 			}
 
@@ -1601,7 +1601,7 @@ object-fit:cover;
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color:#01080C;
 			border-radius: 4px;
 			opacity: 0;
 		}
