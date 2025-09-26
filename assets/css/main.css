@@ -97,6 +97,53 @@ opacity:100%;
 
 }
 
+/*Renders*/
+
+.RenderContainer {
+  position: relative;
+  width: 100%;
+  height: 50%;
+}
+
+.Renders {
+ display: block;
+margin: 2.5rem 0;
+width: 100%;
+object-fit:cover;
+
+
+}
+
+
+.RenderOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #5E6572;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  opacity:75%;
+}
+
+.RenderContainer:hover .RenderOverlay {
+  width: 100%;
+}
+
+.RenderText {
+  white-space: nowrap; 
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
 /* Basic */
 
 	@-ms-viewport {
