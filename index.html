@@ -80,13 +80,13 @@
 					<article id="Landstad">
 								<h2 class="major">Landstad 1900</h2>
 
-								<span class="image main Render" id="myImg"><img src="images/Landstad/Landstad1900FinalRender1.png" alt=""/></span>
+								<span class="image main Render"><img src="images/Landstad/Landstad1900FinalRender1.png" alt="" /></span>
 
 								<p>Recreation of the Landstad 1900 self-loading revolver. The idea for this project came from a post on the 'Hunt:Showdown' subreddit, suggesting it should be added. I then took it upon myself to make my own version of the 'revolver'(even if it barely counts) as only one ever made it to production.</p>
 								
-								<span class="image main Render" id="myImg"><img src="images/Landstad/Landstad1900FinalRender2.png" alt="" /></span>
+								<span class="image main Render"><img src="images/Landstad/Landstad1900FinalRender2.png" alt="" /></span>
 
-								<span class="image main Render" id="myImg"><img src="images/Landstad/Landstad1900FinalRender3.png" alt="" /></span>
+								<span class="image main Render"><img src="images/Landstad/Landstad1900FinalRender3.png" alt="" /></span>
 
 								<p>This project consists of : <div> 5 texture sets ranging from 1K to 4K</div>	<div>Tri count: 47,076</div></p>
 
@@ -94,7 +94,8 @@
 								<div id="myModal" class="modal">
 									 <!-- Modal Content (The Image) -->
 									 <span class="close">&times;</span>
-										<img class="modal-content" id="img01">
+
+									<img class="modal-content" id="img01">
 									
 									<script>
 										// create references to the modal...
@@ -109,9 +110,8 @@
 										var img = images[i];
 										// and attach our click listener for this image.
 										img.onclick = function(evt) {
-										modal.style.display = "block";
-										modalImg.src = this.src;
-										captionText.innerHTML = this.alt;
+											modal.style.display = "block";
+											modalImg.src = this.src;
 											}
 										}
 
@@ -454,7 +454,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="assets/js/modal.js"></script>
+			
 
 	</body>
 </html>
