@@ -809,7 +809,7 @@ object-fit:cover;
 
 
 		/* The Modal (background) */
-.modal {
+.modallandstad {
   display: none;
   /* Hidden by default */
   position: Sticky;
@@ -838,7 +838,7 @@ object-fit:cover;
 }
 
 /* Modal Content (image) */
-.modal-content {
+.modal-contentlandstad {
     margin: auto;
 	justify-content:center;
     display: block;
@@ -846,7 +846,7 @@ object-fit:cover;
 	zoom: 300%;
 }
 
-.modal-content, #caption {
+.modal-contentlandstad, #caption {
     animation-name: zoom;
     animation-duration: 0.6s;
 }
@@ -856,7 +856,7 @@ object-fit:cover;
     to {transform:scale(1)}
 }
 
-.close {
+.closelandstad {
   position: absolute;
   top: 15px;
   right: 35px;
@@ -866,20 +866,84 @@ object-fit:cover;
   transition: 0.3s;
 }
 
-.close:hover,
-.close:focus {
+.closelandstad:hover,
+.closelandstad:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
 }
-		
+
+
+.modalrugermkiv {
+  display: none;
+  /* Hidden by default */
+  position: Sticky;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  padding-bottom:100px;
+  padding-right:100px;
+  padding-left:100px;
+  /* Location of the box */
+  transform:translate(-17.5%,-25%);
+  top:0;
+  bottom:0;
+  width: 150%;
+  /* Full width */
+  height:100%;
+  /* Full height */
+  overflow: auto;
+
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-contentrugermkiv {
+    margin: auto;
+	justify-content:center;
+    display: block;
+    width: 100%;   
+	zoom: 300%;
+}
+
+.modal-contentrugermkiv, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+.closerugermkiv {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.closerugermkiv:hover,
+.closerugermkiv:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}		
 
 		@media screen and (max-width: 736px) {
 
 			.image.main {
 				margin: 2rem 0;
 			}
-			.modal
+			.modallandstad
 			{
 				margin: 2rem 0;
 			}
@@ -895,7 +959,7 @@ object-fit:cover;
 			.image.main.Render {
 				margin: 1.5rem 0;
 			}
-			.modal
+			.modallandstad
 			{
 				margin: 1.5rem 0;
 			}
