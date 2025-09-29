@@ -65,7 +65,7 @@
 							
 							<!-- one image below-->
 								<div class="RenderContainer">
-									 <span class="image main"><img src="images\Landstad/Landstad1900FinalRender1.png" alt="" /></span>
+									 <span class="image main"><img src="images\Landstad/Landstad1900Thumbnail.png" alt="" /></span>
 										<div class="RenderOverlay" >
 											<div class="RenderText"><a href="#Landstad">LandStad 1900</a></div>
 										</div>
@@ -73,9 +73,17 @@
 									</div>
 
 									<div class="RenderContainer">
-									 <span class="image main"><img src="images/Rugermkiv/RugerMKIV Final Render 1.png" alt="" /></span>
+									 <span class="image main"><img src="images/Rugermkiv/RugerMKIV Thumbnail2.png" alt="" /></span>
 										<div class="RenderOverlay" >
 											<div class="RenderText"><a href="#Rugermkiv">Ruger MKIV</a></div>
+										</div>
+
+									</div>
+
+									<div class="RenderContainer">
+									 <span class="image main"><img src="images/pentax/PentaxME Final Thumbnail2.png" alt="" /></span>
+										<div class="RenderOverlay" >
+											<div class="RenderText"><a href="#pentax">Pentax ME</a></div>
 										</div>
 
 									</div>
@@ -85,11 +93,11 @@
 								</article>
 
 
-					<!--Folio-->
+					<!--Folio Landstad-->
 					<a id="top"></a>
 
 
-					<article id="Landstad">
+						<article id="Landstad">
 								<h2 class="major">Landstad 1900</h2>
 
 								<span><img class="image main Render" src="images/Landstad/Landstad1900FinalRender1.png" alt="" /></span>
@@ -146,7 +154,7 @@
 							</article>
 
 							<a id="top"></a>
-
+					<!--Folio Ruger-->
 				<a id="top"></a>
 					<article id="Rugermkiv">
 								<h2 class="major">Ruger MKIV</h2>
@@ -206,6 +214,62 @@
 										// When the user clicks on <span> (x), close the modal
 										spanrugermkiv.onclick = function() { 
 											modalrugermkiv.style.display = "none";
+											}
+									</script>
+								
+
+								</div>
+
+									
+
+								<div> <p class="ArticleCopyright">&copy;2018 - 2024 Kieran Murray. All Rights Reserved: <a href="https://html5up.net">HTML5 UP</a>.</p> </div>
+							<a href="#top"> Back to top </a>
+							</article>
+
+							<!--Folio Ruger-->
+				<!--Folio Pentax-->
+				<a id="top"></a>
+					<article id="pentax">
+								<h2 class="major">Pentax ME</h2>
+
+								<span><img class="image main Render" src="images/Pentax/PentaxMEFinalRender1.png" alt="" /></span>
+
+								<p></p>
+							
+
+								<iframe Class="MarmosetViewer" width="800" height="400" src="" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" scrolling="no"> </iframe>
+
+								<p>This project consists of : <div>  texture sets ranging from  to </div>	<div>Tri count:</div></p>
+
+								<!-- The Modal -->
+								<div id="myModalpentax" class="modalpentax">
+									 <!-- Modal Content (The Image) -->
+										 <span class="closepentax">&times;</span>
+
+										<img class="modal-contentpentax" id="imgpentax">
+										<script>
+										// Get the modal
+										var modalpentax = document.getElementById('myModalpentax');
+
+										// Get the image and insert it inside the modal - use its "alt" text as a caption
+										var imgpentax = document.getElementsByClassName('image main Render');
+										var modalImgpentax = document.getElementById("imgpentax");
+
+										var showModalpentax = function(){
+											modalpentax.style.display = "block";
+											modalImgpentax.src = this.src;
+										}
+
+										for (var i = 0; i < imgpentax.length; i++) {
+											imgpentax[i].addEventListener('click', showModalpentax);
+											}
+
+										// Get the <span> element that closes the modal
+										var spanpentax = document.getElementsByClassName("closepentax")[0];
+
+										// When the user clicks on <span> (x), close the modal
+										spanpentax.onclick = function() { 
+											modalpentax.style.display = "none";
 											}
 									</script>
 								
