@@ -879,7 +879,10 @@ object-fit:cover;
 			.image.main {
 				margin: 2rem 0;
 			}
-
+			.modal
+			{
+				margin: 2rem 0;
+			}
 }
 
 		}
@@ -892,7 +895,10 @@ object-fit:cover;
 			.image.main.Render {
 				margin: 1.5rem 0;
 			}
-
+			.modal
+			{
+				margin: 1.5rem 0;
+			}
 		}
 
 /* List */
