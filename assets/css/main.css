@@ -778,7 +778,18 @@ object-fit:cover;
 			
 		}
 
+		.MarmosetViewer {
+			display: block;
+			margin: 2.5rem 0;
+			width: 100%;
+			
+		}
+
 			.image.main img {
+				width: 100%;
+			}
+
+		.MarmosetViewer {
 				width: 100%;
 			}
 
@@ -795,23 +806,30 @@ object-fit:cover;
 		{opacity: 0.7;
 		}
 
+
+
 		/* The Modal (background) */
 .modal {
   display: none;
   /* Hidden by default */
-  position: fixed;
+  position: Sticky;
   /* Stay in place */
   z-index: 1;
   /* Sit on top */
   padding-top: 100px;
+  padding-bottom:100px;
+  padding-right:100px;
+  padding-left:100px;
   /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%;
+  transform:translate(-17.5%,-25%);
+  top:0;
+  bottom:0;
+  width: 150%;
   /* Full width */
-  height: 100%;
+  height:100%;
   /* Full height */
   overflow: auto;
+
   /* Enable scroll if needed */
   background-color: rgb(0, 0, 0);
   /* Fallback color */
@@ -819,23 +837,23 @@ object-fit:cover;
   /* Black w/ opacity */
 }
 
-  /* Modal Content (Image) */
+/* Modal Content (image) */
 .modal-content {
-  margin: auto;
-  display: block;
-  width: 100%;
-  max-width: 700px;
+    margin: auto;
+	justify-content:center;
+    display: block;
+    width: 100%;   
+	zoom: 300%;
 }
 
-
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
 
 @keyframes zoom {
-  from {
-    transform: scale(0)
-  }
-  to {
-    transform: scale(1)
-  }
+    from {transform:scale(0)}
+    to {transform:scale(1)}
 }
 
 .close {
@@ -861,9 +879,7 @@ object-fit:cover;
 			.image.main {
 				margin: 2rem 0;
 			}
-			  .modal-content {
-    width: 100%;
-  }
+
 }
 
 		}
