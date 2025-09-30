@@ -837,6 +837,8 @@ object-fit:cover;
   /* Black w/ opacity */
 }
 
+
+
 /* Modal Content (image) */
 .modal-contentlandstad {
     margin: auto;
@@ -844,7 +846,10 @@ object-fit:cover;
     display: block;
     width: 100%;   
 	zoom: 300%;
+
 }
+
+
 
 .modal-contentlandstad, #caption {
     animation-name: zoom;
@@ -872,6 +877,7 @@ object-fit:cover;
   text-decoration: none;
   cursor: pointer;
 }
+
 
 
 .modalrugermkiv {
